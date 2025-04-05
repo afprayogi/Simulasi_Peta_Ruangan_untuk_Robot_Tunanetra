@@ -15,10 +15,18 @@ Simulasi ini dirancang untuk membangun peta ruangan acak sebagai alat bantu eksp
 
 - Python 3.x
 - Matplotlib
-
+- Numpy
 ## Instalasi & Menjalankan
 
 1. Install dependensi:
 
 ```bash
 pip install matplotlib
+pip install numpy
+```
+
+## Acknowledgment
+
+Proyek ini dikembangkan secara mandiri oleh afprayogi, dengan bantuan ChatGPT dari OpenAI sebagai asisten ide dan pemrograman selama proses pembuatan simulasi.
+
+Terima kasih juga kepada komunitas open-source dan dokumentasi Matplotlib yang sangat membantu dalam visualisasi peta.
