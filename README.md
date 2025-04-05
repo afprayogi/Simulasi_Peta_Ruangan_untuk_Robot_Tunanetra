@@ -1,2 +1,24 @@
-# Simulasi_Peta_Ruangan_untuk_Robot_Tunanetra
-Simulasi pemetaan ruangan untuk robot tunanetra, menampilkan ruangan terhubung acak, pintu, halangan, dan titik ESP berbasis sinyal. Cocok untuk eksperimen sistem navigasi.
+# Simulasi Peta Ruangan untuk Robot Tunanetra
+
+Simulasi ini dirancang untuk membangun peta ruangan acak sebagai alat bantu eksperimen sistem navigasi robot tunanetra. Ruangan-ruangan dalam simulasi saling terhubung melalui pintu dan dilengkapi halangan, dinding kuat, serta titik referensi (ESP).
+
+## Fitur
+
+- Ruangan besar saling berhimpitan secara acak
+- Pintu antar ruangan (warna hijau) dan pintu keluar (warna merah)
+- Titik awal robot dijamin tidak berada di halangan
+- Halangan dan dinding kuat acak untuk tantangan navigasi
+- Grid visual (10x10 atau lebih) untuk setiap ruangan
+- Titik referensi sinyal (ESP) diletakkan dekat pintu
+
+## Teknologi
+
+- Python 3.x
+- Matplotlib
+
+## Instalasi & Menjalankan
+
+1. Install dependensi:
+
+```bash
+pip install matplotlib
